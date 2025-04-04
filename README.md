@@ -28,6 +28,6 @@ Eligibility: Join testnet—install a node (guide on gensyn.ai), fill out Supply
 
 2️⃣ Check: https://icoanalytics.org/projects/gensyn/
 
-# Run CLI Node [Check Out](CLI-Node.md)   
+# Run RL Swarm Node [Check Out](RL-Swarm.md)   
 
 [System Requiremnets](system-requirements.md)
