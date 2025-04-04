@@ -12,7 +12,7 @@ OR
     - RTX 4090
     - A100
     - H100
-
+You can run the node without a GPU using CPU-only mode
 
 # Software Requirements
 
