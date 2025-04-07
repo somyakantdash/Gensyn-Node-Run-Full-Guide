@@ -59,20 +59,20 @@ Wait till you see waiting for UserData.json to be created
 
 Then open Browser and Input & Login by Google - http://localhost:3000/
 
-### For VPS Only
+## Open Another Window for VPS to Login ur LocalHost
 
-- Open a New Window & Login ur VPS again 
+Download Some Dependencies 
 ```
 sudo apt install ufw -y
 sudo ufw allow 3000/tcp
 ```
 
-- Enable ufw
+Enable ufw
 ```
 sudo ufw enable
 ```
 
-- Install cloudflared
+Install Cloudflared
 ```
 wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
 ````
@@ -91,7 +91,32 @@ Access the Link from your local machine
 
 ![image](https://github.com/user-attachments/assets/c5bdfec5-123d-4625-8da8-f46269700950)
 
-Then Login
+Then Login > Then Go to the Previous Screen to Check ur Logs
+
+```
+PRESS CTRL+A+D (to run ur node continuously)
+```
+- To check ur Node Again
+```
+screen -r rlswarm
+```
+Save your `swarm.pem` file to your Local Device from VPS
+```
+scp USERNAME@YOUR_IP:~/rl-swarm/swarm.pem ~/swarm.pem
+```
+- Replace ur "USERNAME" & "YOUR_IP" with your actual VPS Username & IP u got already.
+
+## 🔶For Next Day Run This Command (Windows)
+
+#1 Open WSL and Put this Command 
+```
+cd rl-swarm
+```
+```
+python3 -m venv .venv
+source .venv/bin/activate
+./run_rl_swarm.sh
+```
 
 
 ## Backup your Key
