@@ -59,7 +59,39 @@ Wait till you see waiting for UserData.json to be created
 
 Then open Browser and Input & Login by Google - http://localhost:3000/
 
-#writing continue............
+### For VPS Only
+
+- Open a New Window & Login ur VPS again 
+```
+sudo apt install ufw -y
+sudo ufw allow 3000/tcp
+```
+
+- Enable ufw
+```
+sudo ufw enable
+```
+
+- Install cloudflared
+```
+wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+````
+```
+sudo dpkg -i cloudflared-linux-amd64.deb
+```
+```
+cloudflared --version
+```
+- Make sure your Node is running on port 3000 in Previous Screen
+- Run the tunnel command
+```
+cloudflared tunnel --url http://localhost:3000
+```
+Access the Link from your local machine
+
+![image](https://github.com/user-attachments/assets/c5bdfec5-123d-4625-8da8-f46269700950)
+
+Then Login
 
 
 ## Backup your Key
