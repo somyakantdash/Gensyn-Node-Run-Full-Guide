@@ -73,10 +73,13 @@ Wait till you see waiting for UserData.json to be created
 
 Then open Browser and Input & Login by Google - http://localhost:3000/
 
+![1_qkd1ND0PxngzkxE4Z6VqBQ](https://github.com/user-attachments/assets/19ceac2c-b3ff-47d6-8a7c-f4f584288241)
+
 Now It will promt Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N] Enter N
 
-![429398341-3ac0514c-a7cc-4743-8389-f3246d5888a0](https://github.com/user-attachments/assets/7a1bb7ff-f77e-45bd-b3a2-f46139d35f3f)
+![1_zs7VHm5Fv_ZeFTsZdBGo9g](https://github.com/user-attachments/assets/123acf42-08bc-492b-aa13-d27359af9ce3)
 
+![429398341-3ac0514c-a7cc-4743-8389-f3246d5888a0](https://github.com/user-attachments/assets/7a1bb7ff-f77e-45bd-b3a2-f46139d35f3f)
 
 Take note of Username
 
@@ -125,7 +128,7 @@ screen -r rlswarm
 
 ## Open Another Window for VPS & WSL to save ur Swarm File
 
-1️⃣ Save your `swarm.pem` file to your Local Device from VPS
+1️⃣ Save your `swarm.pem` file to your Local Device from VPS (Open Command Prompt or Powershell)
 - From VPS to WSL Home Directory
 ```
 scp USERNAME@YOUR_IP:~/rl-swarm/swarm.pem ~/swarm.pem
@@ -140,7 +143,7 @@ scp USERNAME@YOUR_VPS_IP:~/rl-swarm/swarm.pem "/mnt/c/Users/Your Username/Deskto
 ```
 Replace ur "USERNAME" & "YOUR_IP" with your actual VPS Username & IP u got already. Replace YourUsername or Your Username with your actual Windows username
 
-2️⃣ Save your `swarm.pem` file to your Desktop screen on your PC from WSL
+2️⃣ Save your `swarm.pem` file to your Desktop screen on your PC from WSL (Open WSL)
 - username has no spaces
 ```
 cp ~/rl-swarm/swarm.pem /mnt/c/Users/YourUsername/Desktop/
