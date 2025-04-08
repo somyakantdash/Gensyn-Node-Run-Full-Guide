@@ -2,7 +2,7 @@
 
 Official Docs: https://github.com/gensyn-ai/rl-swarm?tab=readme-ov-file
 
-- 16GB RAM and 4 Cores
+- 16GB RAM and 6 Cores
 - 100GB free disk space
 
 OR
