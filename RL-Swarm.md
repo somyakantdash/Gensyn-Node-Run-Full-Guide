@@ -5,6 +5,7 @@
 ### Dashboard (check ur points) - https://dashboard.gensyn.ai/
 
 1️⃣ Dependencies for WINDOWS & LINUX & VPS & Mac
+
 For WSL or VPS
 ```
 sudo apt update && sudo apt upgrade -y
@@ -18,6 +19,7 @@ brew install git curl wget nano tmux htop jq make gcc autoconf automake pkg-conf
 ```
 
 2️⃣ Install Python & Node Js & Yarn & NPM & Pip & Dev. tool
+
 For WSL or VPS
 ```
 sudo apt-get install python3 python3-pip python3-venv python3-dev -y
