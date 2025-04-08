@@ -42,10 +42,8 @@ brew install python3 node yarn
 ```
 
 3️⃣ Hugging Face Access Token (Optional)
-[Hugging Face Security Tokens](https://huggingface.co/docs/hub/en/security-tokens)
-- Sign up , verify and create account
-- Go to Menu, click the Access token 
-- Create a Write access token and Done
+
+- Not Needed
 
 4️⃣ Download Some Files
 ```
