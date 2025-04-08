@@ -73,6 +73,10 @@ Wait till you see waiting for UserData.json to be created
 
 Then open Browser and Input & Login by Google - http://localhost:3000/
 
+![429398341-3ac0514c-a7cc-4743-8389-f3246d5888a0](https://github.com/user-attachments/assets/204d108c-36ec-4ceb-95fb-ae85828ef39a)
+
+Take note of Username
+
 ## Open Another Window for VPS to Login ur LocalHost
 
 1️⃣ Download Some Dependencies 
