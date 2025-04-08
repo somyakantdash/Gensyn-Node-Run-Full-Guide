@@ -118,6 +118,10 @@ source .venv/bin/activate
 ./run_rl_swarm.sh
 ```
 
+## Delete Node File
+```
+rm -rf ~/rl-swarm
+```
 
 ## Backup your Key
 ```
