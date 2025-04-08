@@ -61,18 +61,18 @@ Then open Browser and Input & Login by Google - http://localhost:3000/
 
 ## Open Another Window for VPS to Login ur LocalHost
 
-Download Some Dependencies 
+1️⃣ Download Some Dependencies 
 ```
 sudo apt install ufw -y
 sudo ufw allow 3000/tcp
 ```
 
-Enable ufw
+2️⃣ Enable ufw
 ```
 sudo ufw enable
 ```
 
-Install Cloudflared
+3️⃣ Install Cloudflared
 ```
 wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
 ````
@@ -83,7 +83,8 @@ sudo dpkg -i cloudflared-linux-amd64.deb
 cloudflared --version
 ```
 - Make sure your Node is running on port 3000 in Previous Screen
-- Run the tunnel command
+
+4️⃣ Run the tunnel command
 ```
 cloudflared tunnel --url http://localhost:3000
 ```
@@ -100,7 +101,10 @@ PRESS CTRL+A+D (to run ur node continuously)
 ```
 screen -r rlswarm
 ```
-Save your `swarm.pem` file to your Local Device from VPS
+
+## Open Another Window for VPS & WSL to save ur Swarm File
+
+1️⃣ Save your `swarm.pem` file to your Local Device from VPS
 ```
 scp USERNAME@YOUR_IP:~/rl-swarm/swarm.pem ~/swarm.pem
 ```
@@ -109,13 +113,13 @@ scp USERNAME@YOUR_VPS_IP:~/rl-swarm/swarm.pem C:\Users\YourUsername\Desktop\
 ```
 - Replace ur "USERNAME" & "YOUR_IP" with your actual VPS Username & IP u got already. Replace YourUsername with your actual Windows username
 
-Save your `swarm.pem` file to your Desktop screen on your PC from WSL
+2️⃣ Save your `swarm.pem` file to your Desktop screen on your PC from WSL
 ```
 cp ~/rl-swarm/swarm.pem /mnt/c/Users/YourUsername/Desktop/
 ```
 - Replace YourUsername with your actual Windows username
 
-To check your Windows username
+3️⃣ To check your Windows username
 ```
 echo $USER
 ```
