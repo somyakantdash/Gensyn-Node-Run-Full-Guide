@@ -131,10 +131,6 @@ cp ~/rl-swarm/swarm.pem "/mnt/c/Users/Your Username/Desktop/"
 Replace YourUsername or Your Username with your actual Windows username
 
 3️⃣ To check your Windows username
-- Through WSL
-```
-echo $USER
-```
 - Through Command Prompt or Powershell
 ```
 echo %USERNAME%
