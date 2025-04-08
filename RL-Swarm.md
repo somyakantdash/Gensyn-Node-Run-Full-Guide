@@ -2,15 +2,21 @@
 
 ### Offical Docs Guide - https://github.com/gensyn-ai/rl-swarm?tab=readme-ov-file
 
-1️⃣ Dependencies for WINDOWS & LINUX & VPS
+1️⃣ Dependencies for WINDOWS & LINUX & VPS & Mac
+For WSL or VPS
 ```
 sudo apt update && sudo apt upgrade -y
 ```
 ```
 sudo apt install -y curl git wget nano tmux htop nvme-cli lz4 jq make gcc clang build-essential autoconf automake pkg-config libssl-dev libleveldb-dev libgbm1 bsdmainutils ncdu unzip tar
 ```
+For Mac
+```
+brew install git curl wget nano tmux htop jq make gcc autoconf automake pkg-config openssl leveldb lz4 coreutils
+```
 
 2️⃣ Install Python & Node Js & Yarn & NPM & Pip & Dev. tool
+For WSL or VPS
 ```
 sudo apt-get install python3 python3-pip python3-venv python3-dev -y
 ```
@@ -25,6 +31,10 @@ sudo apt install python3-dev python3-venv build-essential -y
 ```
 ```
 sudo apt-get update && sudo apt-get install -y curl gnupg apt-transport-https && curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && sudo apt-get update && sudo apt-get install -y yarn && yarn --version
+```
+For Mac
+```
+brew install python3 node yarn
 ```
 
 3️⃣ Hugging Face Access Token (Optional)
@@ -105,15 +115,15 @@ screen -r rlswarm
 ## Open Another Window for VPS & WSL to save ur Swarm File
 
 1️⃣ Save your `swarm.pem` file to your Local Device from VPS
-- Save File to ur WSL Folder
+- From VPS to WSL Home Directory
 ```
 scp USERNAME@YOUR_IP:~/rl-swarm/swarm.pem ~/swarm.pem
 ```
-- Save File in ur Desktop Screen (username has no spaces)
+- From VPS to Desktop Screen Windows (username has no spaces)
 ```
 scp USERNAME@YOUR_VPS_IP:~/rl-swarm/swarm.pem C:\Users\YourUsername\Desktop\
 ```
-- Save File in ur Desktop Screen (username has spaces)
+- From VPS to Desktop Screen Windows (username has spaces)
 ```
 scp USERNAME@YOUR_VPS_IP:~/rl-swarm/swarm.pem "/mnt/c/Users/Your Username/Desktop/"
 ```
@@ -136,9 +146,14 @@ Replace YourUsername or Your Username with your actual Windows username
 echo %USERNAME%
 ```
 
-## 🔶For Next Day Run This Command (Windows)
+4️⃣ Save your `swarm.pem` file to your Desktop screen on your Mac from HomeBrew
+```
+cp ~/rl-swarm/swarm.pem ~/Desktop/
+```
 
-#1 Open WSL and Put this Command 
+## 🔶For Next Day Run This Command (Windows or Mac)
+
+#1 Open WSL or HomeBrew and Put this Command 
 ```
 cd rl-swarm
 ```
