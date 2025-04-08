@@ -73,7 +73,10 @@ Wait till you see waiting for UserData.json to be created
 
 Then open Browser and Input & Login by Google - http://localhost:3000/
 
-![429398341-3ac0514c-a7cc-4743-8389-f3246d5888a0](https://github.com/user-attachments/assets/204d108c-36ec-4ceb-95fb-ae85828ef39a)
+Now It will promt Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N] Enter N
+
+![429398341-3ac0514c-a7cc-4743-8389-f3246d5888a0](https://github.com/user-attachments/assets/7a1bb7ff-f77e-45bd-b3a2-f46139d35f3f)
+
 
 Take note of Username
 
