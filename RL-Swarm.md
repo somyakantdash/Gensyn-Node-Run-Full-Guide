@@ -114,7 +114,7 @@ cloudflared tunnel --url http://localhost:3000
 ```
 Access the Link from your local machine
 
-![image](https://github.com/user-attachments/assets/c5bdfec5-123d-4625-8da8-f46269700950)
+![430651391-c5bdfec5-123d-4625-8da8-f46269700950](https://github.com/user-attachments/assets/93590db1-9d6b-4a86-9d44-337506b6c06c)
 
 Then Login > Then Go to the Previous Screen to Check ur Logs
 
