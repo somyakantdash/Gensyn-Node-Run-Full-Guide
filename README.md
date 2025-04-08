@@ -18,10 +18,10 @@ Eligibility: Join testnet—install a node (guide on gensyn.ai), fill out Supply
 ![Screenshot 2025-04-04 141341](https://github.com/user-attachments/assets/df22a465-a777-4c3a-a118-fe06cda525be)
 
 The full testnet will roll out in 4 phases:
-- 1.RL Swarm — collaborative RL over the internet
-- 2.Verde — trustless ML verification
-- 3.SkipPipe — comms-efficient pipeline training
-- 4.Diverse Expert Ensembles — new MoE architecture
+1. RL Swarm — collaborative RL over the internet
+2. Verde — trustless ML verification
+3. SkipPipe — comms-efficient pipeline training
+4. Diverse Expert Ensembles — new MoE architecture
 
 ## Funding
 - Total Raised: Gensyn has secured over $50.6 million across four funding rounds.
