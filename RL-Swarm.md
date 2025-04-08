@@ -105,23 +105,39 @@ screen -r rlswarm
 ## Open Another Window for VPS & WSL to save ur Swarm File
 
 1️⃣ Save your `swarm.pem` file to your Local Device from VPS
+- Save File to ur WSL Folder
 ```
 scp USERNAME@YOUR_IP:~/rl-swarm/swarm.pem ~/swarm.pem
 ```
+- Save File in ur Desktop Screen (username has no spaces)
 ```
 scp USERNAME@YOUR_VPS_IP:~/rl-swarm/swarm.pem C:\Users\YourUsername\Desktop\
 ```
-- Replace ur "USERNAME" & "YOUR_IP" with your actual VPS Username & IP u got already. Replace YourUsername with your actual Windows username
+- Save File in ur Desktop Screen (username has spaces)
+```
+scp USERNAME@YOUR_VPS_IP:~/rl-swarm/swarm.pem "/mnt/c/Users/Your Username/Desktop/"
+```
+- Replace ur "USERNAME" & "YOUR_IP" with your actual VPS Username & IP u got already. Replace YourUsername or Your Username with your actual Windows username
 
 2️⃣ Save your `swarm.pem` file to your Desktop screen on your PC from WSL
+- username has no spaces
 ```
 cp ~/rl-swarm/swarm.pem /mnt/c/Users/YourUsername/Desktop/
 ```
-- Replace YourUsername with your actual Windows username
+- username has spaces
+```
+cp ~/rl-swarm/swarm.pem "/mnt/c/Users/Your Username/Desktop/"
+```
+- Replace YourUsername or Your Username with your actual Windows username
 
 3️⃣ To check your Windows username
+- Through WSL
 ```
 echo $USER
+```
+- Through Command Prompt or Powershell
+```
+echo %USERNAME%
 ```
 
 ## 🔶For Next Day Run This Command (Windows)
