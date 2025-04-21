@@ -10,7 +10,7 @@ Gensyn Protocol is a layer-1 trustless protocol for deep learning computation th
 - Scalability: The protocol is designed to scale dynamically, accommodating large-scale ML models that may not fit on a single device. It distributes workloads across the network, optimizing resource use and performance.
 - Verification System: Gensyn employs advanced verification mechanisms (e.g., their "Verde" system) to ensure the accuracy of ML computations performed on untrusted nodes, addressing a core challenge in decentralized systems.
 - Accessibility for Developers: The platform democratizes access to computational power, empowering developers, researchers, and organizations of all sizes to train AI models without needing massive upfront investments in hardware.
--Research-Driven Innovation: Gensyn’s team focuses on cutting-edge research, such as "SkipPipe" (communication-efficient decentralized training) and "Diverse Expert Ensembles" (parallel LLM training), enhancing the protocol’s efficiency and capabilities.
+- Research-Driven Innovation: Gensyn’s team focuses on cutting-edge research, such as "SkipPipe" (communication-efficient decentralized training) and "Diverse Expert Ensembles" (parallel LLM training), enhancing the protocol’s efficiency and capabilities.
 
 ## Airdrop Details
 Status: Confirmed via testnet rewards (per Litepaper), but no official date or specifics yet.
